@@ -1,0 +1,7 @@
+a=float(input('nhập a:'))
+b=float(input('nhập b:'))
+print("Theo vị trí a...b") 
+print('Tổng:',a+b,'hoặc b+a')
+print('Hiệu:',a-b,'hoặc',b-a)
+print('Tích:',a*b)
+print('Thương',a/b,'hoặc',b/a)
