@@ -1,8 +1,11 @@
-# vì méo có đề bài 36 nên t làm TBC tạm vậy =))) đậu móaaaaaaaaaaaaaaaaaa
-import statistics
-# Nhập dãy số từ bàn phím và chuyển thành danh sách
-numbers = list(map(int, input("Nhập dãy số: ").split()))
-# Tính trung bình của danh sách
-average = statistics.mean(numbers)
-# In ra kết quả
-print("Trung bình của dãy số là:", average)
+N = int(input("Nhập số phần tử của mảng: "))
+ar = []
+for i in range(N):
+    x = int(input(f"Nhập phần tử thứ {i+1}: "))
+    ar.append(x)
+# nó chỉ là hiện ra một cái gì đây thôi đừng để ý!
+sum_even = 0
+for i in ar:
+    if i % 2 == 0:
+        sum_even += i
+print("Tổng các phần tử chẵn trong mảng là:", sum_even)
